@@ -3,7 +3,6 @@ const topCells = document.querySelectorAll('.cell.row-top');
 const resetButton = document.querySelector('.reset');
 const statusSpan = document.querySelector('.status');
 
-// columns
 const column0 = [allCells[35], allCells[28], allCells[21], allCells[14], allCells[7], allCells[0], topCells[0]];
 const column1 = [allCells[36], allCells[29], allCells[22], allCells[15], allCells[8], allCells[1], topCells[1]];
 const column2 = [allCells[37], allCells[30], allCells[23], allCells[16], allCells[9], allCells[2], topCells[2]];
@@ -13,8 +12,6 @@ const column5 = [allCells[40], allCells[33], allCells[26], allCells[19], allCell
 const column6 = [allCells[41], allCells[34], allCells[27], allCells[20], allCells[13], allCells[6], topCells[6]];
 const columns = [column0, column1, column2, column3, column4, column5, column6];
 
-
-// rows
 const topRow = [topCells[0], topCells[1], topCells[2], topCells[3], topCells[4], topCells[5], topCells[6]];
 const row0 = [allCells[0], allCells[1], allCells[2], allCells[3], allCells[4], allCells[5], allCells[6]];
 const row1 = [allCells[7], allCells[8], allCells[9], allCells[10], allCells[11], allCells[12], allCells[13]];
